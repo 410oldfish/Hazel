@@ -1,0 +1,17 @@
+﻿E:\VS\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1967,5): warning : The referenced project 'vendor\imgui\ImGui.vcxproj' does not exist.
+cl : 命令行 warning D9025: 正在重写“/MTd”(用“/MDd”)
+  ImGuiOpenGLRenderer.cpp
+D:\Engine\Hazel\Hazel\src\Platform\OpenGL\ImGuiOpenGLRenderer.cpp(74): warning C4603: “_CRT_SECURE_NO_WARNINGS”: 未定义宏或在预编译头使用后定义发生改变
+D:\Engine\Hazel\Hazel\src\Platform\OpenGL\ImGuiOpenGLRenderer.cpp(74): message : 将宏添加到预编译头中，而不是在此处定义
+D:\Engine\Hazel\Hazel\src\Platform\OpenGL\ImGuiOpenGLRenderer.cpp(77): message : 使用预编译头
+D:\Engine\Hazel\Hazel\src\Platform\OpenGL\ImGuiOpenGLRenderer.cpp(162,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Engine\Hazel\Hazel\src\Platform\OpenGL\ImGuiOpenGLRenderer.cpp(193,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Engine\Hazel\Hazel\src\Platform\OpenGL\ImGuiOpenGLRenderer.cpp(194,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Engine\Hazel\Hazel\src\Platform\OpenGL\ImGuiOpenGLRenderer.cpp(522,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+    正在创建库 ..\bin\Debug-windows-x86_64\Hazel\Hazel.lib 和对象 ..\bin\Debug-windows-x86_64\Hazel\Hazel.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+ImGuiOpenGLRenderer.obj : error LNK2019: 无法解析的外部符号 "struct ImGuiIO & __cdecl ImGui::GetIO(void)" (?GetIO@ImGui@@YAAEAUImGuiIO@@XZ)，函数 "bool __cdecl ImGui_ImplOpenGL3_CreateFontsTexture(void)" (?ImGui_ImplOpenGL3_CreateFontsTexture@@YA_NXZ) 中引用了该符号
+ImGuiOpenGLRenderer.obj : error LNK2019: 无法解析的外部符号 "void * __cdecl ImGui::MemAlloc(unsigned __int64)" (?MemAlloc@ImGui@@YAPEAX_K@Z)，函数 "public: void __cdecl ImVector<char>::reserve(int)" (?reserve@?$ImVector@D@@QEAAXH@Z) 中引用了该符号
+ImGuiOpenGLRenderer.obj : error LNK2019: 无法解析的外部符号 "void __cdecl ImGui::MemFree(void *)" (?MemFree@ImGui@@YAXPEAX@Z)，函数 "public: __cdecl ImVector<char>::~ImVector<char>(void)" (??1?$ImVector@D@@QEAA@XZ) 中引用了该符号
+ImGuiOpenGLRenderer.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl ImFontAtlas::GetTexDataAsRGBA32(unsigned char * *,int *,int *,int *)" (?GetTexDataAsRGBA32@ImFontAtlas@@QEAAXPEAPEAEPEAH11@Z)，函数 "bool __cdecl ImGui_ImplOpenGL3_CreateFontsTexture(void)" (?ImGui_ImplOpenGL3_CreateFontsTexture@@YA_NXZ) 中引用了该符号
+..\bin\Debug-windows-x86_64\Hazel\Hazel.dll : fatal error LNK1120: 4 个无法解析的外部命令
